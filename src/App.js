@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Login from "./components/Login";
 import SignUp from "./components/SignUp";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Hook from "./components/Hook";
 
 class App extends React.Component {
   constructor(props) {
@@ -37,6 +38,7 @@ class App extends React.Component {
         ) : (
           ""
         )}
+        <Hook />
       </div>
     );
   }
